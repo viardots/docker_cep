@@ -1,0 +1,3 @@
+IdentityFile ~/.gitlabPrivateKey/gitlabEnsimag
+Host gitlab.ensimag.fr
+User git
