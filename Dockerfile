@@ -27,6 +27,7 @@ RUN yum install -y screen bc guile librdmacm.x86_64 libibumad libepoxy libgbm li
 RUN yum install -y tmate
 RUN yum install -y https://centos7.iuscommunity.org/ius-release.rpm
 RUN yum install -y python35u
+RUN yum install -y tmux
 COPY rhscl.sh /etc/profile.d/
 COPY xilinx.sh /etc/profile.d/
 COPY config /home/someone/.ssh/config
